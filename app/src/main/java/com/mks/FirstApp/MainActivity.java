@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity{
         }
     }
     public void ShowToast(View showtoast){
-
+        Toast.makeText(this, "Git Testing", Toast.LENGTH_SHORT).show();
     }
 
 }
