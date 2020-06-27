@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".PhoneCall">
+
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone No"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:onClick="PhoneCall"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:text="Call"/>
+
+    <EditText
+        android:id="@+id/etsms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Data"
+        android:inputType="text"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:onClick="SendSMS"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:text="Send SMS"/>
+
+</LinearLayout>
